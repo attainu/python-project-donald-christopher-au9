@@ -1,3 +1,4 @@
+# Maze solver
 
 def Display(visited):
     print('Solved maze path:')
@@ -33,7 +34,7 @@ if __name__ == "__main__":
     Graph=[]
     Row=int(input('Enter number of rows\n'))
     for i in range(Row):
-        print('Enter row:',i+1)
+        print('Enter input for row :',i+1)
         row=list(map(int,input().split()))
         Graph.append(row)
     Find_path(Graph,Row)
